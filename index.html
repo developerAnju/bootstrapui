@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap UI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- navigation starts -->
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Complex UI</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start flex-lg-row" data-bs-scroll="true" id="offcanvasWithBothOptions">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Section 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Section 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Section 3</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- navigation ends -->
+    <!-- banner carousel starts -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide Title</h5>
+                <p>First Slide Description</p>
+                <button class="btn btn-primary">Call to Action</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide Title</h5>
+                <p>Second Slide Description</p>
+                <button class="btn btn-primary">Call to Action</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- banner carousel ends -->
+    
+    <!-- content starts -->
+    <section class="mb-5">
+        <div class="container">
+            <!-- bootstrap grid 1 starts -->
+            <div class="py-5">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <img src="images/placeholder-1.jpg" class="w-100" alt="">
+                        <p class="text-center">Short description</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <img src="images/placeholder-1.jpg" class="w-100" alt="">
+                        <p class="text-center">Short description</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <img src="images/placeholder-1.jpg" class="w-100" alt="">
+                        <p class="text-center">Short description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- bootstrap grid 1 ends -->
+
+            <!-- bootstrap grid 2 starts -->
+            <div class="pb-5">
+                <!-- bootstrap inner grid 1 starts -->
+                <div class="row gx-2">
+                    <div class="col-4 col-lg-4">
+                        <img src="images/placeholder-2.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-8 col-lg-8">
+                        <div class="row gx-2">
+                            <div class="col-6 col-lg-6">
+                                <div class="row gx-2">
+                                    <div class="col-6 col-lg-6">
+                                        <img src="images/placeholder-3.jpg" class="w-100 imgH" alt="">
+                                    </div>
+                                    <div class="col-6 col-lg-6">
+                                        <img src="images/placeholder-3.jpg" class="w-100 imgH" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6">
+                                <img src="images/placeholder-1.jpg" class="w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="row mt-2 gx-2">
+                            <div class="col-6 col-lg-6">
+                                <div class="row gx-2">
+                                    <div class="col-6 col-lg-6">
+                                        <img src="images/placeholder-3.jpg" class="w-100 imgH" alt="">
+                                    </div>
+                                    <div class="col-6 col-lg-6">
+                                        <img src="images/placeholder-3.jpg" class="w-100 imgH" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6">
+                                <img src="images/placeholder-1.jpg" class="w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bootstrap inner grid 1 ends -->
+
+                <!-- bootstrap inner grid 2 starts -->
+                <div class="row gx-2 mt-2">
+                    <div class="col-4 col-lg-4">
+                        <img src="images/placeholder-2.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-8 col-lg-8">
+                        <img src="images/placeholder-4.jpg" class="w-100" alt="">
+                    </div>
+                </div>
+                <!-- bootstrap inner grid 2 ends -->
+            </div>
+            <!-- bootstrap grid 2 ends -->
+
+            <!-- bootstrap card starts -->
+            <div class="pb-3">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/placeholder-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Card description</p>
+                            <a href="#" class="btn btn-primary">Call to Action</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/placeholder-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Card description</p>
+                            <a href="#" class="btn btn-primary">Call to Action</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/placeholder-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Card description</p>
+                            <a href="#" class="btn btn-primary">Call to Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bootstrap card ends -->
+        </div>
+    </section>
+    <!-- content ends -->
+
+    <!-- footer starts -->
+    <footer class="bg-light text-dark">
+        <div class="container">
+            <div class="py-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h5>More Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h5>Contact Us</h5>
+                        <p>Email: example@example.com</p>
+                        <p>Phone: +1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright pb-3">
+                <p class="mb-0">@2023 Complex UI. All Rights Reserved.</p>
+                <button class="btn btn-primary ms-auto">Back to Top</button>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+
+    <!-- js links -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

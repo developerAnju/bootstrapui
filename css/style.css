@@ -1,0 +1,19 @@
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(min-width: 992px){
+.imgH{
+    height: 277px;
+} 
+}
+@media(max-width: 576px){
+.copyright{
+    flex-direction: column;
+}
+.offcanvas-start{
+    width: 90% !important;
+    padding: 0 20px;
+}
+}
